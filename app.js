@@ -12,6 +12,9 @@ app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
+//routes found in the server/routes directory
+require('./server/routes')(app);
+
 //set up default catch all route sending a welcome message in JSON format
 app.get('*', (req, res) => {
   return res.status(200).send({ message: "Successful status 200"})
