@@ -1,3 +1,7 @@
+##WORK IN PROGRESS(sequelize issues)
+
+To do: find way to learn sequelize
+
 Made using this tutorial https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize
 
 I can use express-generator to scaffold in later projects for easier set up
